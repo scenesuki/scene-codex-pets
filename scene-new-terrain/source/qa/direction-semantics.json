@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa-worker",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"up","reason":"Centered face with lifted chin and pupils above neutral."},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Nose and pupils shift screen-right while chin and pupils lift."},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Face turns screen-right and chin and eyes remain raised."},
+    {"direction":"067.5","verdict":"warning","expected":"up-right","observed":"up-right with subtle up cue","reason":"Strong screen-right nose and face turn with only a subtle raised-chin vertical cue."},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"right","reason":"Nose and visible face profile point unmistakably screen-right."},
+    {"direction":"112.5","verdict":"warning","expected":"down-right","observed":"down-right with subtle down cue","reason":"Nose and face point screen-right while the slight lowered-eye and chin cue is weaker than neighboring down-right poses."},
+    {"direction":"135","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Nose and pupils sit screen-right and chin and eyes angle downward."},
+    {"direction":"157.5","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Slight screen-right face offset remains while chin and gaze lower toward 180."},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"down","reason":"Centered bowed head, lowered chin, and downcast or closed eyes."},
+    {"direction":"202.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Nose and face shift screen-left and chin and eyes remain lowered."},
+    {"direction":"225","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Clear screen-left turn with lowered chin and gaze."},
+    {"direction":"247.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Strong screen-left profile with eyes and chin still below neutral."},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"left","reason":"Nose and visible face profile point unmistakably screen-left."},
+    {"direction":"292.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Nose and face point screen-left and chin and pupils lift."},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Clear screen-left turn with raised chin and upward gaze."},
+    {"direction":"337.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Slight screen-left face offset with lifted chin and pupils approaching 000."}
+  ],
+  "review_warnings": [
+    "067.5 and 112.5 have subtle vertical components and were reversed by blind review, but labeled normal-size poses remain in the correct quadrants without loop reversal.",
+    "337.5-to-000 is a continuity-metric outlier, but the ordered loop shows a coherent up-left-to-up wrap without visible identity, scale, or registration break."
+  ]
+}

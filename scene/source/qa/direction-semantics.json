@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-qa-worker",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"up","reason":"Pupils rise beneath raised lids and chin tilts upward."},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Horizontal: nose and pupils shift screen-right of head center. Vertical: pupils rise and chin remains lifted."},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Horizontal: face turns clearly screen-right. Vertical: gaze and chin remain elevated."},
+    {"direction":"067.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Horizontal: nose and pupils advance farther screen-right. Vertical: eyes remain above neutral with slight upward head pitch."},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"right","reason":"Nose and pupils sit unmistakably screen-right of head center."},
+    {"direction":"112.5","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Horizontal: face and pupils remain screen-right. Vertical: eyelids and pupils lower as chin begins to tuck."},
+    {"direction":"135","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Horizontal: nose and gaze remain screen-right. Vertical: pupils lower and chin tucks more deeply."},
+    {"direction":"157.5","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Horizontal: slight screen-right face bias remains. Vertical: lowered eyes and tucked chin clearly read down."},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"down","reason":"Pupils lower beneath the fringe and chin is fully tucked."},
+    {"direction":"202.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Horizontal: nose and pupils shift screen-left. Vertical: gaze stays lowered with chin tucked."},
+    {"direction":"225","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Horizontal: face turns farther screen-left. Vertical: pupils and head pitch remain downward."},
+    {"direction":"247.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Horizontal: nose and pupils approach the left profile. Vertical: lowered eyelids and chin retain the downward component."},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"left","reason":"Nose and pupils sit unmistakably screen-left of head center."},
+    {"direction":"292.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Horizontal: face and pupils remain screen-left. Vertical: eyes lift and chin begins rising."},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Horizontal: nose and gaze stay screen-left. Vertical: pupils rise with a clearly elevated chin."},
+    {"direction":"337.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Horizontal: slight screen-left face bias remains. Vertical: raised pupils and chin clearly read up."}
+  ],
+  "review_warnings": ["Continuity metrics flagged 157.5-to-180 and 337.5-to-000 as local pixel-difference outliers; normal-size loop review found no visible snap, scale pop, identity change, or reversal."],
+  "repair_rows": []
+}

@@ -1,0 +1,10 @@
+{
+  "visual_qa": "pass",
+  "qa_note": "All standard motion rows preserve the same pet identity and render clean, readable state-appropriate loops, while the ordered look loop has clear cardinals and only minor accepted intermediate-axis and wrap-continuity warnings.",
+  "review_warnings": [
+    "067.5 and 112.5 vertical components are subtle, but labeled poses remain in the correct quadrants without reversal.",
+    "337.5-to-000 is a metric outlier without a visible identity, scale, or registration break."
+  ],
+  "repair_rows": [],
+  "repair_notes": null
+}

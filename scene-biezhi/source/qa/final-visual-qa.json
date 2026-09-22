@@ -1,0 +1,11 @@
+{
+  "visual_qa": "pass",
+  "qa_note": "All standard rows and the ordered look loop preserve identity and motion semantics, with deterministic validation passing and no visual blocker remaining.",
+  "review_warnings": [
+    "Intermediate horizontal cues are subtle in eight diagonal poses, but the labeled ordered loop shows no wrong-quadrant pose or reversal.",
+    "The 135 alpha-hole metric is unobtrusive natural negative space with no visible seam or broken silhouette.",
+    "The two continuity outliers show no visible snap, scale pop, registration jump, or identity change."
+  ],
+  "repair_rows": [],
+  "repair_notes": null
+}

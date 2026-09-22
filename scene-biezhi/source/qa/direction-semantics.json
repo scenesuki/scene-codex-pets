@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa-worker",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"up","reason":"Centered face, lifted pupils, and raised chin clearly read up."},
+    {"direction":"022.5","verdict":"warning","expected":"up-right","observed":"up-right with subtle right cue","reason":"Vertical up is clear from lifted gaze and chin; the horizontal right cue is subtle and blind-ambiguous."},
+    {"direction":"045","verdict":"warning","expected":"up-right","observed":"up-right in ordered loop","reason":"Raised gaze establishes up; clockwise head progression supports right despite the blind opposite-axis vote."},
+    {"direction":"067.5","verdict":"warning","expected":"up-right","observed":"up-right approaching right","reason":"Upward eyes remain clear and the face advances smoothly toward 090 right despite the blind opposite-axis vote."},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"right","reason":"Nose, eyes, and head turn clearly aim screen-right."},
+    {"direction":"112.5","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Rightward facial profile remains visible while lowered eyelids and chin establish down."},
+    {"direction":"135","verdict":"warning","expected":"down-right","observed":"down-right with subtle right cue","reason":"Down is clear from lowered gaze and chin; the right component is subtle and blind-conflicted."},
+    {"direction":"157.5","verdict":"warning","expected":"down-right","observed":"down-right approaching down","reason":"Strong downward pose is clear; the shrinking right component is subtle but transitions smoothly to 180."},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"down","reason":"Centered lowered face, eyelids, and chin clearly read down."},
+    {"direction":"202.5","verdict":"warning","expected":"down-left","observed":"down-left with subtle left cue","reason":"Downward gaze is clear; the emerging left component is subtle but follows the ordered loop."},
+    {"direction":"225","verdict":"warning","expected":"down-left","observed":"down-left in ordered loop","reason":"Lowered face establishes down while the left turn is visually gradual despite the blind opposite-axis vote."},
+    {"direction":"247.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Leftward head profile is readable and lowered eyes and chin preserve down."},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"left","reason":"Nose, eyes, and head turn clearly aim screen-left."},
+    {"direction":"292.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Leftward profile remains clear while lifted eyes and chin establish up."},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Face remains turned left and raised gaze clearly supplies the upward axis."},
+    {"direction":"337.5","verdict":"warning","expected":"up-left","observed":"up-left with subtle left cue","reason":"Upward gaze is clear; the residual left cue is subtle and blind-ambiguous but closes smoothly into 000."}
+  ],
+  "review_warnings": [
+    "Intermediate horizontal uncertainty is accepted at 022.5, 045, 067.5, 135, 157.5, 202.5, 225, and 337.5 because the labeled ordered loop shows no wrong-quadrant pose or reversal.",
+    "The 135 alpha-hole metric is unobtrusive natural negative space with no visible seam or broken silhouette.",
+    "The 157.5-to-180 and 337.5-to-000 metric outliers show no visible snap, scale pop, registration jump, or identity change."
+  ]
+}

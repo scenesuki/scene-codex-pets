@@ -1,0 +1,4 @@
+visual_qa=pass
+qa_note=All standard animations preserve the same photographer identity and clean state semantics, while the 16-direction loop has unmistakable cardinals, correct quadrants, stable registration, and no visible reversal or clipping.
+review_warnings=Continuity metrics flag 157.5->180 and 337.5->000 as local pixel-difference outliers, accepted because the labeled normal-size loop shows no conspicuous snap, scale pop, identity change, or semantic reversal.
+repair_rows=none

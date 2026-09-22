@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的瞳孔偏向画面左侧，B 的瞳孔偏向画面右侧。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 的眼线和瞳孔明显朝画面右侧，B 则偏向画面左侧。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的瞳孔落在眼裂左部，B 的瞳孔落在眼裂右部。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的侧脸与视线朝画面左侧，B 的眼睛较明显回看画面右侧。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的瞳孔贴近眼裂左侧，B 的瞳孔相对偏右。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "低头姿态下，A 的瞳孔仍偏左，B 的瞳孔偏右。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的侧向眼线朝左，B 的瞳孔和脸部转向更靠右。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A 抬起下巴并向上看，B 垂下头和眼线。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A 的脸和瞳孔上扬，B 的下巴与视线明显下垂。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A 低头向下看，B 抬头且眼线向上。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A 的下巴和眼线较低，B 的脸部与瞳孔向上抬。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A 仰头向上，B 低头并把视线压向下方。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A 的脸与眼线朝下，B 明显抬头向上看。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A 的眼线略向上且下巴抬起，B 的头和视线明显向下。"
+    }
+  ]
+}

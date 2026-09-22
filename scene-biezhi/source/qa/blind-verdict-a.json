@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 的双眼视线偏向画面右侧，B 的虹膜与面部视线偏向画面左侧。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的虹膜落在眼裂左侧，B 的可见虹膜明显移向画面右侧。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 的可见眼神偏右，B 的眼神与面部朝向偏左。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的侧脸与可见虹膜朝画面左侧，B 的视线相对转向右侧。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 低头时面部视线偏左，B 的可见眼神相对偏右。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "两者均低头，但 A 的可见眼神偏画面左侧，B 偏画面右侧。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的低垂视线仍偏左，B 的双眼落点更明显地偏向画面右侧。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A 抬头且虹膜靠上，B 低头并向下垂眼。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A 下巴抬起、视线向上，B 下巴收低、视线向下。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A 明显低头垂眼，B 明显仰头抬眼。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A 的眼睑与脸部姿态朝下，B 的脸部和视线朝上。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A 仰头向上看，B 低头向下看。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A 低头且眼神下垂，B 抬头且虹膜靠上。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A 的脸和视线略向上抬，B 的脸与眼神明显向下。"
+    }
+  ]
+}
