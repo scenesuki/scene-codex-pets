@@ -240,8 +240,8 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a0bc9c-acdb-7cd1-b384-026e5288d752\\exec-c0c0d9a6-8d77-44e6-ac7f-153cfec13d01.png",
-      "completed_at": "2026-09-22T04:04:17Z"
+      "source_path": "decoded/hover-calm.png",
+      "completed_at": "2026-10-10"
     },
     {
       "id": "failed",

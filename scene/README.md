@@ -34,6 +34,12 @@
     └── progress.md          # 制作记录
 ```
 
+## 悬停反应
+
+鼠标悬停时，稀音保持双脚落地，以轻微抬眼、眨眼和点头作出安静的回应。客户端将这一行称为 `jumping`，本项目用克制的表情变化替代跳跃，播放时长沿用客户端设置。
+
+![悬停反应预览](preview/hover-calm.gif)
+
 ## 技术规格
 
 - Codex `spriteVersionNumber: 2`

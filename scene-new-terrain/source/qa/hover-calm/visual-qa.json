@@ -1,0 +1,30 @@
+{
+  "durations_ms": [
+    140,
+    140,
+    140,
+    140,
+    280
+  ],
+  "warnings": [
+    "Runtime row timing remains native Codex timing; calm behavior is achieved through small grounded poses rather than a configurable speed change."
+  ],
+  "inspected": [
+    "idle-and-hover.png",
+    "first-frame.png",
+    "../../frames/jumping/02.png",
+    "repair.json",
+    "chroma-despill.json"
+  ],
+  "reviewer": "hover_scene_independent",
+  "evidence": [
+    "Compared original idle in the first contact-sheet column with all five hover frames: cap, pale bob hair, green cape, yellow gloves, chest camera, shorts, asymmetric stocking and brown boots remain consistent.",
+    "All five frames are full-body and grounded with fixed feet; no leap, bounce, crouch, lateral drift or clipping is visible.",
+    "Motion is a restrained head/eye acknowledgement with a clearly closed-eye middle frame and a quiet return to neutral.",
+    "repair.json confirms identical bounding boxes [47,5,145,203], baseline 203, five frames, unchanged other rows, and lossless WebP roundtrip."
+  ],
+  "total_duration_ms": 840,
+  "date": "2026-10-10",
+  "verdict": "pass",
+  "ok": true
+}

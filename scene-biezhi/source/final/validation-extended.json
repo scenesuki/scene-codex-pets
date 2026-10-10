@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "C:\\Users\\tieha\\Documents\\Codex\\2026-09-13\\hatch-pet-c-users-tieha-codex\\work\\scene-biezhi-pet\\final\\spritesheet-extended.webp",
+  "file": "D:\\\u9879\u76ee\\pet\\scene-biezhi\\spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -305,7 +305,7 @@
       "row": 4,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 16933,
+      "nontransparent_pixels": 12511,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -314,7 +314,7 @@
       "row": 4,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 15262,
+      "nontransparent_pixels": 12675,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -323,7 +323,7 @@
       "row": 4,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 17452,
+      "nontransparent_pixels": 12627,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -332,7 +332,7 @@
       "row": 4,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 15455,
+      "nontransparent_pixels": 12545,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -341,7 +341,7 @@
       "row": 4,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 16771,
+      "nontransparent_pixels": 12467,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },

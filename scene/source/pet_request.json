@@ -41,7 +41,7 @@
       "state": "jumping",
       "row": 4,
       "frames": 5,
-      "purpose": "hover or playful jump"
+      "purpose": "grounded quiet hover acknowledgement: blink and slight nod, no jumping"
     },
     {
       "state": "failed",

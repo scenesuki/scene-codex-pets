@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-10",
+  "row": 4,
+  "runtime_state": "jumping",
+  "action": "calm hover acknowledgement",
+  "frames": 5,
+  "durations_ms": [
+    140,
+    140,
+    140,
+    140,
+    280
+  ],
+  "baseline": 203,
+  "bounding_boxes": [
+    [
+      48,
+      5,
+      144,
+      203
+    ],
+    [
+      48,
+      5,
+      144,
+      203
+    ],
+    [
+      48,
+      5,
+      144,
+      203
+    ],
+    [
+      48,
+      5,
+      144,
+      203
+    ],
+    [
+      48,
+      5,
+      144,
+      203
+    ]
+  ],
+  "before_rgba_sha256": "465877eb68882f33ef6109e0d3127a24d531f6b9794041b8c0539ad814012170",
+  "after_rgba_sha256": "5775bea3beddb247c5c5050beb3dff9de8af2cf9cb6543ba0935d0d49d13e924",
+  "other_rows_pixel_identical": true,
+  "webp_roundtrip_pixel_identical": true,
+  "timing_note": "Native Codex row timing; personality adjustment is in poses, not runtime speed."
+}

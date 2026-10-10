@@ -1,0 +1,27 @@
+{
+  "verdict": "pass",
+  "reviewed_at": "2026-10-10",
+  "reviewer": "independent hover_biezhi agent",
+  "evidence": [
+    "Compared first original idle column with five hover frames in idle-and-hover.png.",
+    "Cream hair, hairpin, sleepy golden eyes, original outfit, camera and waist props remain coherent and match idle.",
+    "Boots stay grounded on one baseline in all five frames; no jump, crouch, body rise or visible position drift.",
+    "Small head attention change and closed-eye blink form a reserved reaction; first and last frames return to neutral.",
+    "Full hair tuft, boots and props remain visible without cropping.",
+    "repair.json confirms five identical bounding boxes ending at baseline 203, unchanged other atlas rows, and lossless WebP roundtrip."
+  ],
+  "timing": {
+    "durations_ms": [
+      140,
+      140,
+      140,
+      140,
+      280
+    ],
+    "total_ms": 840,
+    "assessment": "Native timing retained; calmness is expressed through reduced pose amplitude."
+  },
+  "warnings": [
+    "Runtime duration remains 840 ms; this review confirms gentle restrained motion, not a slowed host animation cadence."
+  ]
+}

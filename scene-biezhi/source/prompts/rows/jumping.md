@@ -1,18 +1,8 @@
-Create one horizontal animation strip for Codex pet `scene-biezhi`, state `jumping`.
-
-Use the attached canonical base for identity. Use the attached layout guide only for slot count, spacing, centering, and padding; do not draw the guide.
-
-Output exactly 5 full-body frames in one left-to-right row on flat pure cyan #00FFFF. Treat the row as 5 invisible equal-width slots: one centered complete pose per slot, evenly spaced, with no overlap, clipping, empty slots, labels, or borders.
-
-Identity: same pet in every frame: Arknights Scene (稀音) in the EPOQUE Biezhi (别枝) outfit, faithful infrastructure SD chibi proportions. Cream-white bob hair with short side ponytail and dark floral hairpin on anatomical left. Golden sleepy eyes. Pale warm-gray kimono-style outer robe with very wide sleeves, muted purple flower motifs and olive-green gradient along the anatomical-left sleeve and lower hem. Black geometric obi and chest wrap with gold trim, coral-red to deep-plum layered hakama skirt, black ruffled underskirt, mustard-gold hanging sash panels and small red-black tassels. White stockings and tall glossy black boots with subtle gold edging. One compact folded olive-green Japanese paper parasol attached behind the shoulder as a single connected prop. Calm reserved expression. Single human character only, no rover, trees, bench, stool, vase, falling leaves, scenery, or detached decorations. Preserve anatomical left/right and all asymmetric motifs; never mirror the outfit.. Preserve silhouette, face, proportions, markings, palette, material, style, and props.
-Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `auto`: Infer the most appropriate pet-safe style from the user request and reference images, then keep that exact style consistent across every row. User style notes: Faithful Arknights infrastructure SD chibi, head about half body height, compact tiny body, restrained sleepy expression, clean polished 2D anime sprite rendering, not pixel art. Keep floral motifs simplified and readable at pet scale..
-Animation continuity: keep apparent pet scale and baseline stable within the row unless the state itself intentionally changes vertical position, such as `jumping`. Move the pose within the slot instead of redrawing the pet larger or smaller frame to frame.
-
-State action: Hover jump loop: anticipation, lift, airborne peak, descent, and settle through body height.
-
-State requirements:
-- Show the jump through pose and vertical body position only: anticipation, lift, airborne peak, descent, settle.
-- Do not draw ground shadows, contact shadows, drop shadows, oval shadows, landing marks, dust, smears, bounce pads, or motion marks under the pet.
-- Keep the background outside the pet perfectly flat chroma key with no darker key-colored patches.
-
-Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet.
+Use case: identity-preserve
+Asset type: 5-frame horizontal sprite strip replacing the mouse-hover animation of an existing Codex pet.
+Input images: Image 1 (idle.png) is the exact artwork identity and style reference; Image 2 (canonical-base.png) supports outfit/detail fidelity; Image 3 (jumping.png) is ONLY the five-cell composition guide and must not appear in the artwork.
+Primary request: Make exactly five coherent full-body frames of Arknights Scene (稀音) wearing Biezhi (别枝) in one horizontal left-to-right strip. Match the existing idle character extremely closely: cream-white bob and side ponytail with black bow/floral hairpin, sleepy gold eyes, cream flower-patterned wide-sleeve robe and olive hem, coral-red skirt, black/gold obi and hanging sash panels, white stockings, glossy black boots, one folded olive parasol behind the shoulder. Preserve all asymmetries, detailed rendering, proportions, and face.
+Scene/backdrop: perfectly uniform solid cyan #00FFFF, no shadows or ground line.
+Composition/framing: five equal-width invisible cells in one row, one full-body character centered in each, all complete including hair tuft, parasol and boots, consistent identical size and foot baseline. Follow the five-cell guide spacing and generous edge margins. Render a wide sprite strip.
+Animation sequence: frame 1 neutral reserved sleepy expression; frame 2 ONLY a very small upward attention tilt of the head (about two degrees); frame 3 a soft closed-eye blink with an extremely tiny nod; frame 4 eyes reopen and head returns gently; frame 5 same neutral pose as frame 1. This is a SLOW restrained grounded reaction suitable for a quiet, deliberate character.
+Constraints: Boots planted in exactly the same position and baseline for every frame. Body, legs, sleeves, arms, parasol, and costume stay steady and relaxed. Micro-motion only in face/head. No crouching, jumping, bouncing, raised feet, leg bending, excitement, waving, pose changes or whole-body lift. Preserve exact recognizable existing idle style. NO text, labels, borders, grids, visible guide pixels, extra objects, detached pieces, effects, shadows, cyan markings on character, or scenery.
