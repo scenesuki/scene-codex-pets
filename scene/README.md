@@ -38,11 +38,15 @@
 
 ## 悬停反应
 
-鼠标悬停时，稀音保持双脚落地，以轻微抬眼、眨眼和点头作出安静的回应。客户端将这一行称为 `jumping`，本项目用克制的表情变化替代跳跃，播放时长沿用客户端设置。
+鼠标悬停时，稀音保持双脚落地，轻轻抬眼，停一拍再回到原姿势。客户端仍以 `jumping` 状态播放这组帧，停顿由图集中的姿势编排实现。
 
 ![悬停反应预览](preview/hover-calm.gif)
 
 ## 技术规格
+
+新版拖动采用小步行走姿势。等待以摊手表示，工作时低头操作随身道具，复核时抬手思考。动作编排见 [逐帧记录](source/qa/walk-and-states.json)，`source/frames/` 保留原始提取帧。
+
+[走路](source/qa/previews/running-right.gif) · [等待](source/qa/previews/waiting.gif) · [工作](source/qa/previews/running.gif) · [复核](source/qa/previews/review.gif)
 
 - Codex `spriteVersionNumber: 2`
 - 图集尺寸：`1536 × 2288`

@@ -1,0 +1,10 @@
+{
+  "changed_degrees": [
+    337.5,
+    0.0
+  ],
+  "seam_pixels_before": 2590,
+  "seam_pixels_after": 2113,
+  "worst_pair_pixels_before": 2590,
+  "worst_pair_pixels_after": 2113
+}

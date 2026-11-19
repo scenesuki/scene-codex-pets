@@ -1,0 +1,49 @@
+{
+  "source_rgba_sha256": "131b63e9c731b775e0fd61ca166d78e65f74ae1dc9977702184946a91b608fb0",
+  "output_rgba_sha256": "6a1c681698a8a59b29d00b0aba9c6031607b714e08159008360ecc5503795809",
+  "occupied_cells": 74,
+  "stride_scale": 0.85,
+  "frame_orders_zero_based": {
+    "jumping": [
+      0,
+      1,
+      1,
+      3,
+      0
+    ],
+    "failed": [
+      0,
+      1,
+      2,
+      2,
+      2,
+      6,
+      7,
+      0
+    ],
+    "waiting": [
+      0,
+      1,
+      1,
+      3,
+      3,
+      0
+    ],
+    "running": [
+      0,
+      1,
+      2,
+      2,
+      3,
+      5
+    ],
+    "review": [
+      0,
+      1,
+      3,
+      3,
+      1,
+      0
+    ]
+  }
+}
