@@ -14,11 +14,11 @@
 
 **下载范围**：Release 为每套造型提供一个 ZIP，以及合用的 `SHA256SUMS.txt`。安装只需要自己想用的造型包。
 
-[浏览造型](#宠物展示) · [安装方法](#三步安装) · [版本记录](#版本与历史下载) · [项目阶段性总述](#项目阶段性总述)
+[浏览造型](#宠物展示) · [安装方法](#三步安装) · [版本记录](#版本与历史下载)
 
 ## 宠物展示
 
-点击小图查看造型说明。各列的链接分别打开悬停、走路和完整视线检查图。
+点击小图查看造型说明。全动作预览用九宫格同时播放九种状态，16 个注视方向见各套视线检查图。
 
 | 原版服装 | 别枝 | 新地形 |
 | :---: | :---: | :---: |
@@ -26,6 +26,7 @@
 | **服饰要素**：浅色外套、深浅不对称的腿部搭配、相机和橄榄绿腰包 | **服饰要素**：红裙、浅色花纹袖摆、花形发饰和折叠伞 | **服饰要素**：棕色帽子、橄榄绿披肩、胸前相机和棕色短靴 |
 | **画风**：Q 版日系插画 | **画风**：Q 版日系插画 | **画风**：Q 版日系插画 |
 | **参考造型**：《明日方舟》稀音原版服装 | **参考造型**：EPOQUE 时装「别枝」 | **参考造型**：生命之地时装「新地形」 |
+| **[全动作预览](scene/preview/animation-overview.gif)** | **[全动作预览](scene-biezhi/preview/animation-overview.gif)** | **[全动作预览](scene-new-terrain/preview/animation-overview.gif)** |
 | [造型说明](scene/README.md) · [悬停](scene/preview/hover-calm.gif) · [走路](scene/source/qa/previews/running-right.gif) · [视线](scene/preview/look-directions.png) | [造型说明](scene-biezhi/README.md) · [悬停](scene-biezhi/preview/hover-calm.gif) · [走路](scene-biezhi/source/qa/previews/running-right.gif) · [视线](scene-biezhi/preview/look-directions.png) | [造型说明](scene-new-terrain/README.md) · [悬停](scene-new-terrain/preview/hover-calm.gif) · [走路](scene-new-terrain/source/qa/previews/running-right.gif) · [视线](scene-new-terrain/preview/look-directions.png) |
 
 ## 三步安装
@@ -84,12 +85,6 @@ scene-new-terrain/  稀音·新地形
 ```
 
 </details>
-
-## 项目阶段性总述
-
-项目从稀音的基建小人出发，先制作原版，再加入别枝和新地形。三套造型共用一套安静的动作基调：拖动时小步走，鼠标悬停时轻轻抬眼，工作时操作相机或折叠伞。后续版本主要花在辨认度上，例如让鞋尖跟着步行方向、把左右侧脸的角度拉齐，以及把原版走路时的头部比例略微收小。
-
-如果在使用中看到某一套的动作朝向、衣物细节或客户端表现有问题，欢迎在 Issue 里注明造型、动作和 Codex 版本。截图或短录屏有助于找到对应帧。
 
 ---
 
