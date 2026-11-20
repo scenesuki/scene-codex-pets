@@ -54,6 +54,8 @@
 
 [走路](source/qa/previews/running-right.gif) · [等待](source/qa/previews/waiting.gif) · [工作](source/qa/previews/running.gif) · [复核](source/qa/previews/review.gif)
 
+v1.2.0 别枝调整了步态的循环接头，招手时手掌露出袖口，工作时折叠伞与袖摆分开，并加强了两个左下视线帧。 [本轮调整记录](source/qa/v1.2.0-refinement.json)
+
 - Codex `spriteVersionNumber: 2`
 - 图集尺寸：`1536 × 2288`
 - 单格尺寸：`192 × 208`

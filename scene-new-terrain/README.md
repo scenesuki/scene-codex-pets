@@ -48,6 +48,8 @@
 
 [走路](source/qa/previews/running-right.gif) · [等待](source/qa/previews/waiting.gif) · [工作](source/qa/previews/running.gif) · [复核](source/qa/previews/review.gif)
 
+v1.2.0 新地形重新编排了左右换脚。工作时双手操作相机，复核时抬手托住下巴。正上方的视线接缝已重新校验。 [本轮调整记录](source/qa/v1.2.0-refinement.json)
+
 - Codex `spriteVersionNumber: 2`
 - 图集尺寸：`1536 × 2288`
 - 单格尺寸：`192 × 208`
