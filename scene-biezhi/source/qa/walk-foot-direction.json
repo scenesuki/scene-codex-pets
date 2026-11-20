@@ -1,0 +1,65 @@
+{
+  "changed_rows": [
+    1,
+    2
+  ],
+  "baseline": 203,
+  "pose_joins": [
+    {
+      "row": 1,
+      "pose": 1,
+      "seam_y": 164,
+      "offset_x": 3,
+      "seam_alpha_difference": 9
+    },
+    {
+      "row": 1,
+      "pose": 2,
+      "seam_y": 163,
+      "offset_x": -1,
+      "seam_alpha_difference": 10
+    },
+    {
+      "row": 1,
+      "pose": 3,
+      "seam_y": 163,
+      "offset_x": 1,
+      "seam_alpha_difference": 7
+    },
+    {
+      "row": 1,
+      "pose": 4,
+      "seam_y": 164,
+      "offset_x": 0,
+      "seam_alpha_difference": 13
+    },
+    {
+      "row": 2,
+      "pose": 1,
+      "seam_y": 164,
+      "offset_x": -3,
+      "seam_alpha_difference": 3
+    },
+    {
+      "row": 2,
+      "pose": 2,
+      "seam_y": 163,
+      "offset_x": -1,
+      "seam_alpha_difference": 7
+    },
+    {
+      "row": 2,
+      "pose": 3,
+      "seam_y": 163,
+      "offset_x": -4,
+      "seam_alpha_difference": 5
+    },
+    {
+      "row": 2,
+      "pose": 4,
+      "seam_y": 163,
+      "offset_x": -1,
+      "seam_alpha_difference": 10
+    }
+  ]
+}
