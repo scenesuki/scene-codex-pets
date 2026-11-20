@@ -1,55 +1,96 @@
-# 稀音 Codex Pets
+<p align="center">
+  <a href="#宠物展示"><img src="scene/source/frames/idle/00.png" alt="稀音原版服装" width="112"></a>
+  <a href="#宠物展示"><img src="scene-biezhi/source/frames/idle/00.png" alt="稀音·别枝" width="112"></a>
+  <a href="#宠物展示"><img src="scene-new-terrain/source/frames/idle/00.png" alt="稀音·新地形" width="112"></a>
+</p>
 
-本仓库收录三个以《明日方舟》干员“稀音”为原型制作的 Codex v2 动画宠物。三个项目彼此独立，可单独安装，也可同时使用。
+<h1 align="center">scene-codex-pets</h1>
 
-## 项目
+<p align="center">《明日方舟》稀音的 Codex 桌面宠物合集</p>
 
-| 造型 | 显示名称 | 宠物 ID | 项目说明 |
-| --- | --- | --- | --- |
-| 原版服装 | 稀音 | `scene` | [`scene/`](scene/) |
-| EPOQUE 时装“别枝” | 稀音·别枝 | `scene-biezhi` | [`scene-biezhi/`](scene-biezhi/) |
-| 生命之地时装“新地形” | 稀音·新地形 | `scene-new-terrain` | [`scene-new-terrain/`](scene-new-terrain/) |
+收录原版、别枝和新地形三套造型。每套提供 9 种状态动画和 16 个注视方向，可单独安装，也可同时放入宠物列表。
 
-## 安装
+**[下载 v1.2.2](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.2)** · [更新记录](https://github.com/scenesuki/scene-codex-pets/releases) · [提交 Issue](https://github.com/scenesuki/scene-codex-pets/issues/new)
 
-从 [GitHub Releases](https://github.com/scenesuki/scene-codex-pets/releases/latest) 下载想要的造型。ZIP 已包含与宠物 ID 同名的目录，解压后把该目录放到 `~/.codex/pets/`。
+**下载范围**：Release 为每套造型提供一个 ZIP，以及合用的 `SHA256SUMS.txt`。安装只需要自己想用的造型包。
 
-1. 进入需要安装的项目目录。
-2. 创建与 `pet.json` 中 `id` 相同的宠物目录。
-3. 将该项目的 `pet.json` 和 `spritesheet.webp` 一起复制到宠物目录。
-4. 重新打开 Codex。
+[浏览造型](#宠物展示) · [安装方法](#三步安装) · [版本记录](#版本与历史下载) · [项目阶段性总述](#项目阶段性总述)
 
-三个项目对应的安装位置为：
+## 宠物展示
+
+点击小图查看造型说明。各列的链接分别打开悬停、走路和完整视线检查图。
+
+| 原版服装 | 别枝 | 新地形 |
+| :---: | :---: | :---: |
+| <a href="scene/README.md"><img src="scene/source/frames/idle/00.png" alt="稀音原版服装" width="144"></a> | <a href="scene-biezhi/README.md"><img src="scene-biezhi/source/frames/idle/00.png" alt="稀音·别枝" width="144"></a> | <a href="scene-new-terrain/README.md"><img src="scene-new-terrain/source/frames/idle/00.png" alt="稀音·新地形" width="144"></a> |
+| **服饰要素**：浅色外套、深浅不对称的腿部搭配、相机和橄榄绿腰包 | **服饰要素**：红裙、浅色花纹袖摆、花形发饰和折叠伞 | **服饰要素**：棕色帽子、橄榄绿披肩、胸前相机和棕色短靴 |
+| **画风**：Q 版日系插画 | **画风**：Q 版日系插画 | **画风**：Q 版日系插画 |
+| **参考造型**：《明日方舟》稀音原版服装 | **参考造型**：EPOQUE 时装「别枝」 | **参考造型**：生命之地时装「新地形」 |
+| [造型说明](scene/README.md) · [悬停](scene/preview/hover-calm.gif) · [走路](scene/source/qa/previews/running-right.gif) · [视线](scene/preview/look-directions.png) | [造型说明](scene-biezhi/README.md) · [悬停](scene-biezhi/preview/hover-calm.gif) · [走路](scene-biezhi/source/qa/previews/running-right.gif) · [视线](scene-biezhi/preview/look-directions.png) | [造型说明](scene-new-terrain/README.md) · [悬停](scene-new-terrain/preview/hover-calm.gif) · [走路](scene-new-terrain/source/qa/previews/running-right.gif) · [视线](scene-new-terrain/preview/look-directions.png) |
+
+## 三步安装
+
+1. 打开 [v1.2.2 下载页](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.2)，下载所需造型的 ZIP。可使用同版 `SHA256SUMS.txt` 核对下载内容。
+2. 解压并将完整宠物目录复制到 `~/.codex/pets/`。确认目录内直接包含 `pet.json` 与 `spritesheet.webp`。Windows 默认位置为 `%USERPROFILE%\.codex\pets\`。
+3. 重新打开 Codex，在宠物设置中选择「稀音」「稀音·别枝」或「稀音·新地形」。
+
+| 显示名称 | 安装目录 | ZIP |
+| --- | --- | --- |
+| 稀音 | `~/.codex/pets/scene/` | [原版服装](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.2/scene-v1.2.2.zip) |
+| 稀音·别枝 | `~/.codex/pets/scene-biezhi/` | [别枝](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.2/scene-biezhi-v1.2.2.zip) |
+| 稀音·新地形 | `~/.codex/pets/scene-new-terrain/` | [新地形](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.2/scene-new-terrain-v1.2.2.zip) |
+
+> **更新提示**：如果原有宠物已迁移到 Codex 账户云端，仅覆盖本地文件不会更新正在使用的云端图集。更新账户中对应的宠物图集后，再刷新或重新打开 Codex。
+
+<details>
+<summary>规格与验证范围</summary>
+
+- 每套采用 Codex v2 无损透明 WebP 图集。图集为 1536 × 2288 像素，由 8 列 × 11 行、每格 192 × 208 像素组成。
+- [原版校验](scene/validation.json)、[别枝校验](scene-biezhi/validation.json)、[新地形校验](scene-new-terrain/validation.json) 记录图集结构检查结果。各造型目录也保留动作预览、视线检查和制作素材。
+- 图集提供 16 个注视方向。客户端如何触发和显示视线跟随，取决于应用版本与运行状态。文件和预览检查不等同于客户端实测。
+
+</details>
+
+<a name="版本与历史下载"></a>
+
+<details>
+<summary>版本与历史下载</summary>
+
+| 版本 | 更新内容 |
+| --- | --- |
+| [v1.2.2](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.2) | 略微缩小原版左右走路时的头部。 |
+| [v1.2.1](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.1) | 原版、别枝的走路侧脸以新地形为参照，统一为四分之三角度。 |
+| [v1.2.0](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.0) | 调整换脚、状态手势和视线接缝，清理部分走路帧的青色杂边。 |
+| [v1.1.3](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.3) | 修正别枝左右走路时鞋尖与头部相反的问题。 |
+| [v1.1.2](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.2) | 重画原版向右走时的侧脸。 |
+| [v1.1.1](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.1) | 修正原版向右走时脸和视线偏左的问题。 |
+| [v1.1.0](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.0) | 将跑步改成小步行走，区分等待、工作和复核的手势，重做别枝视线。 |
+| [v1.0.1](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.0.1) | 将悬停时的跳跃改成双脚落地的轻微回应。 |
+| [v1.0.0](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.0.0) | 首次发布三套稀音桌宠。 |
+
+历史安装包以对应 Release 的附件为准。
+
+</details>
+
+<details>
+<summary>项目结构</summary>
+
+每套造型有独立目录，顶层存放安装文件和结构校验结果。`preview/` 提供展示图，`source/` 保留制作素材、动画预览与验收记录。`scripts/` 存放图集整理脚本。
 
 ```text
-~/.codex/pets/scene/
-~/.codex/pets/scene-biezhi/
-~/.codex/pets/scene-new-terrain/
+scene/              稀音原版
+scene-biezhi/       稀音·别枝
+scene-new-terrain/  稀音·新地形
 ```
 
-新版 Codex 可能将本地宠物自动迁移为账户云端宠物。迁移后，覆盖本地文件不会更新正在使用的云端图集；更新已有宠物时，需要替换对应云端宠物的图集，再刷新或重新打开 Codex。
+</details>
 
-## 悬停反应
+## 项目阶段性总述
 
-三个造型悬停时均保持双脚落地，轻轻抬眼，停一拍再回到原姿势。拖动时使用小步行走姿势。等待时摊手，工作时低头操作随身道具，复核时抬手思考。动作预览见各项目说明。
+项目从稀音的基建小人出发，先制作原版，再加入别枝和新地形。三套造型共用一套安静的动作基调：拖动时小步走，鼠标悬停时轻轻抬眼，工作时操作相机或折叠伞。后续版本主要花在辨认度上，例如让鞋尖跟着步行方向、把左右侧脸的角度拉齐，以及把原版走路时的头部比例略微收小。
 
-## 兼容性与验证
+如果在使用中看到某一套的动作朝向、衣物细节或客户端表现有问题，欢迎在 Issue 里注明造型、动作和 Codex 版本。截图或短录屏有助于找到对应帧。
 
-三个项目均使用 Codex `spriteVersionNumber: 2`，图集尺寸为 `1536 × 2288`，由 `8 × 11` 个 `192 × 208` 单元格组成。最终图集均为带透明通道的 WebP，并已通过各自 `validation.json` 中的结构检查，结果为 `ok: true`，无错误或警告。
+---
 
-每个项目还包含动作预览、视线方向检查图和完整制作工程，详情见对应目录中的 README。
-
-## 仓库结构
-
-```text
-.
-├── README.md
-├── NOTICE.md
-├── scene/              # 稀音原版服装
-├── scene-biezhi/       # 稀音·别枝时装
-└── scene-new-terrain/  # 稀音·新地形时装
-```
-
-## 声明
-
-本仓库为非官方同人项目。角色设计、《明日方舟》及相关素材的权利归上海鹰角网络科技有限公司及其关联方所有。详见 [`NOTICE.md`](NOTICE.md)。
+本项目是《明日方舟》的非官方同人作品。角色及参考素材的权利归原权利人所有，详见 [NOTICE.md](NOTICE.md)。
