@@ -1,0 +1,19 @@
+{
+  "changed_rows": [
+    1
+  ],
+  "frame_source_order": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    0
+  ],
+  "manual_direction_review": "All four distinct poses have nose, eye and front boot pointing screen-right; source order repeats to eight frames.",
+  "basis": "Windows Codex 26.1111.9664.0 drag: positive screenX -> running-right -> row 1; negative screenX -> running-left -> row 2.",
+  "before_rgba_sha256": "c2bbea6170cf71074dd577fe562577a98642698d76993dc5e9f69e181897e9e7",
+  "after_rgba_sha256": "a63be3aee295ef3d790b5a91bcc99e8e8031f483a5a3d59c422c7be837808b58"
+}
