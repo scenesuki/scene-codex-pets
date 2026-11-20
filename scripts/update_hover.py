@@ -77,8 +77,7 @@ def main():
     for i, frame in enumerate(final_frames):
         comparison.paste(frame, ((i + 1) * 192, 0))
     comparison.save(qa / "idle-and-hover.png")
-    save_preview(final_frames, ROW_DURATIONS["jumping"], project / "preview" / "hover-calm.gif")
-    shutil.copy2(project / "preview" / "hover-calm.gif", source / "qa" / "previews" / "jumping.gif")
+    save_preview(final_frames, ROW_DURATIONS["jumping"], project / "preview" / "jumping.gif")
     shutil.copy2(source / "decoded" / "hover-calm.png", source / "decoded" / "jumping.png")
     shutil.copy2(source / "prompts" / "rows" / "hover-calm.md", source / "prompts" / "rows" / "jumping.md")
     for row_spec in request["rows"]:

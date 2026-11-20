@@ -4,3 +4,6 @@ desktop.ini
 __pycache__/
 *.pyc
 release-assets/
+/reference-assets/
+/*-official/source/
+/*/source/qa/installed-validation.json
