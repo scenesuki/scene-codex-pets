@@ -1,0 +1,206 @@
+[
+  {
+    "row": 7,
+    "frame": 0,
+    "silhouette_iou": 0.922,
+    "before_bounds": [
+      47,
+      3,
+      145,
+      203
+    ],
+    "after_bounds": [
+      45,
+      4,
+      147,
+      203
+    ]
+  },
+  {
+    "row": 7,
+    "frame": 1,
+    "silhouette_iou": 0.884,
+    "before_bounds": [
+      47,
+      3,
+      144,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      146,
+      203
+    ]
+  },
+  {
+    "row": 7,
+    "frame": 2,
+    "silhouette_iou": 0.927,
+    "before_bounds": [
+      46,
+      3,
+      146,
+      203
+    ],
+    "after_bounds": [
+      45,
+      4,
+      147,
+      203
+    ]
+  },
+  {
+    "row": 7,
+    "frame": 3,
+    "silhouette_iou": 0.927,
+    "before_bounds": [
+      46,
+      3,
+      146,
+      203
+    ],
+    "after_bounds": [
+      45,
+      4,
+      147,
+      203
+    ]
+  },
+  {
+    "row": 7,
+    "frame": 4,
+    "silhouette_iou": 0.869,
+    "before_bounds": [
+      47,
+      3,
+      144,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      146,
+      203
+    ]
+  },
+  {
+    "row": 7,
+    "frame": 5,
+    "silhouette_iou": 0.922,
+    "before_bounds": [
+      47,
+      3,
+      145,
+      203
+    ],
+    "after_bounds": [
+      45,
+      4,
+      147,
+      203
+    ]
+  },
+  {
+    "row": 8,
+    "frame": 0,
+    "silhouette_iou": 0.943,
+    "before_bounds": [
+      46,
+      5,
+      145,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      147,
+      203
+    ]
+  },
+  {
+    "row": 8,
+    "frame": 1,
+    "silhouette_iou": 0.955,
+    "before_bounds": [
+      45,
+      5,
+      147,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      148,
+      203
+    ]
+  },
+  {
+    "row": 8,
+    "frame": 2,
+    "silhouette_iou": 0.941,
+    "before_bounds": [
+      45,
+      6,
+      147,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      147,
+      203
+    ]
+  },
+  {
+    "row": 8,
+    "frame": 3,
+    "silhouette_iou": 0.941,
+    "before_bounds": [
+      45,
+      6,
+      147,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      147,
+      203
+    ]
+  },
+  {
+    "row": 8,
+    "frame": 4,
+    "silhouette_iou": 0.955,
+    "before_bounds": [
+      45,
+      5,
+      147,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      148,
+      203
+    ]
+  },
+  {
+    "row": 8,
+    "frame": 5,
+    "silhouette_iou": 0.943,
+    "before_bounds": [
+      46,
+      5,
+      145,
+      203
+    ],
+    "after_bounds": [
+      44,
+      4,
+      147,
+      203
+    ]
+  }
+]

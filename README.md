@@ -10,7 +10,7 @@
 
 收录原版、别枝和新地形三套造型。每套提供 9 种状态动画和 16 个注视方向，可单独安装，也可同时放入宠物列表。
 
-**[下载 v1.2.2](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.2)** · [更新记录](https://github.com/scenesuki/scene-codex-pets/releases) · [提交 Issue](https://github.com/scenesuki/scene-codex-pets/issues/new)
+**[下载 v1.2.3](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.3)** · [更新记录](https://github.com/scenesuki/scene-codex-pets/releases) · [提交 Issue](https://github.com/scenesuki/scene-codex-pets/issues/new)
 
 **下载范围**：Release 为每套造型提供一个 ZIP，以及合用的 `SHA256SUMS.txt`。安装只需要自己想用的造型包。
 
@@ -31,15 +31,15 @@
 
 ## 三步安装
 
-1. 打开 [v1.2.2 下载页](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.2)，下载所需造型的 ZIP。可使用同版 `SHA256SUMS.txt` 核对下载内容。
+1. 打开 [v1.2.3 下载页](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.3)，下载所需造型的 ZIP。可使用同版 `SHA256SUMS.txt` 核对下载内容。
 2. 解压并将完整宠物目录复制到 `~/.codex/pets/`。确认目录内直接包含 `pet.json` 与 `spritesheet.webp`。Windows 默认位置为 `%USERPROFILE%\.codex\pets\`。
 3. 重新打开 Codex，在宠物设置中选择「稀音」「稀音·别枝」或「稀音·新地形」。
 
 | 显示名称 | 安装目录 | ZIP |
 | --- | --- | --- |
-| 稀音 | `~/.codex/pets/scene/` | [原版服装](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.2/scene-v1.2.2.zip) |
-| 稀音·别枝 | `~/.codex/pets/scene-biezhi/` | [别枝](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.2/scene-biezhi-v1.2.2.zip) |
-| 稀音·新地形 | `~/.codex/pets/scene-new-terrain/` | [新地形](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.2/scene-new-terrain-v1.2.2.zip) |
+| 稀音 | `~/.codex/pets/scene/` | [原版服装](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.3/scene-v1.2.3.zip) |
+| 稀音·别枝 | `~/.codex/pets/scene-biezhi/` | [别枝](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.3/scene-biezhi-v1.2.3.zip) |
+| 稀音·新地形 | `~/.codex/pets/scene-new-terrain/` | [新地形](https://github.com/scenesuki/scene-codex-pets/releases/download/v1.2.3/scene-new-terrain-v1.2.3.zip) |
 
 > **更新提示**：如果原有宠物已迁移到 Codex 账户云端，仅覆盖本地文件不会更新正在使用的云端图集。更新账户中对应的宠物图集后，再刷新或重新打开 Codex。
 
@@ -59,6 +59,7 @@
 
 | 版本 | 更新内容 |
 | --- | --- |
+| [v1.2.3](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.3) | 试修原版工作与复核的发色、衣料阴影和勾线。 |
 | [v1.2.2](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.2) | 略微缩小原版左右走路时的头部。 |
 | [v1.2.1](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.1) | 原版、别枝的走路侧脸以新地形为参照，统一为四分之三角度。 |
 | [v1.2.0](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.0) | 调整换脚、状态手势和视线接缝，清理部分走路帧的青色杂边。 |
