@@ -1,0 +1,16 @@
+{
+  "head_scale": 0.96,
+  "rows": [
+    1,
+    2
+  ],
+  "head_width_px_before": [
+    100.0,
+    99.0
+  ],
+  "head_width_px_after": [
+    96.0,
+    96.0
+  ],
+  "torso_and_other_rows_pixel_identical": true
+}
