@@ -59,15 +59,7 @@
 
 | 版本 | 更新内容 |
 | --- | --- |
-| [v1.2.4](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.4) | 提供三套完整合集、公开预览和校验记录，沿用 v1.2.3 图集。 |
-| [v1.2.3](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.3) | 试修原版工作与复核的发色、衣料阴影和勾线。 |
-| [v1.2.2](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.2) | 略微缩小原版左右走路时的头部。 |
-| [v1.2.1](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.1) | 原版、别枝的走路侧脸以新地形为参照，统一为四分之三角度。 |
-| [v1.2.0](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.0) | 调整换脚、状态手势和视线接缝，清理部分走路帧的青色杂边。 |
-| [v1.1.3](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.3) | 修正别枝左右走路时鞋尖与头部相反的问题。 |
-| [v1.1.2](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.2) | 重画原版向右走时的侧脸。 |
-| [v1.1.1](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.1) | 修正原版向右走时脸和视线偏左的问题。 |
-| [v1.1.0](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.1.0) | 将跑步改成小步行走，区分等待、工作和复核的手势，重做别枝视线。 |
+| [v1.2.4](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.2.4) | 稀音原版、别枝、新地形三套完整合集，附动画预览、安装说明和图集校验记录。 |
 | [v1.0.1](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.0.1) | 将悬停时的跳跃改成双脚落地的轻微回应。 |
 | [v1.0.0](https://github.com/scenesuki/scene-codex-pets/releases/tag/v1.0.0) | 首次发布三套稀音桌宠。 |
 
