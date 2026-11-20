@@ -27,7 +27,7 @@
 └── source/                  # 完整制作工程
     ├── decoded/             # 生成并选定的动作条
     ├── frames/              # 提取后的逐帧 PNG
-    ├── final/               # 图集及校验产物
+    ├── final/               # 正式图集的布局元数据
     ├── prompts/             # 各动作生成提示词
     ├── qa/                  # 方向、连续性和视觉 QA
     ├── references/          # 参考图与布局模板

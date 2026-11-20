@@ -61,12 +61,6 @@ def main():
     save_image(atlas, project / "spritesheet.webp")
     decoded_check = Image.open(project / "spritesheet.webp").convert("RGBA")
     assert decoded_check.tobytes() == atlas.tobytes(), "WebP roundtrip changed pixels"
-    save_image(atlas, source / "final" / "spritesheet-extended.png")
-    shutil.copy2(project / "spritesheet.webp", source / "final" / "spritesheet-extended.webp")
-    standard = atlas.crop((0, 0, 1536, 1872))
-    standard.paste(Image.new("RGBA", (192, 208)), (6 * 192, 0))
-    save_image(standard, source / "final" / "spritesheet.png")
-    save_image(standard, source / "final" / "spritesheet.webp")
     frame_dir = source / "frames" / "jumping"
     final_frames = []
     for i in range(5):
@@ -102,10 +96,8 @@ def main():
     subprocess.run([sys.executable, str(args.skill_scripts / "validate_atlas.py"), str(project / "spritesheet.webp"),
                     "--require-v2", "--chroma-key", key, "--json-out", str(project / "validation.json")], check=True,
                    stdout=subprocess.DEVNULL)
-    shutil.copy2(project / "validation.json", source / "final" / "validation-extended.json")
-    for destination in [project / "preview" / "contact-sheet.png", source / "qa" / "contact-sheet-extended.png"]:
-        subprocess.run([sys.executable, str(args.skill_scripts / "make_contact_sheet.py"), str(project / "spritesheet.webp"),
-                        "--output", str(destination)], check=True, stdout=subprocess.DEVNULL)
+    subprocess.run([sys.executable, str(args.skill_scripts / "make_contact_sheet.py"), str(project / "spritesheet.webp"),
+                    "--output", str(project / "preview" / "contact-sheet.png")], check=True, stdout=subprocess.DEVNULL)
     print(json.dumps({"project": project.name, "ok": True, "baseline": baseline, "height": target_height}))
 
 

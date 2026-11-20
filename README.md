@@ -77,7 +77,7 @@
 <details>
 <summary>项目结构</summary>
 
-每套造型有独立目录，顶层存放安装文件和结构校验结果。`preview/` 提供展示图，`source/` 保留制作素材、动画预览与验收记录。`scripts/` 存放图集整理脚本。
+每套造型有独立目录，顶层的 `spritesheet.webp` 和 `validation.json` 是正式图集与结构校验结果。`preview/` 提供公开预览，`source/` 保留制作素材、布局元数据和验收记录。`scripts/` 存放图集整理脚本。
 
 ```text
 scene/              稀音原版
